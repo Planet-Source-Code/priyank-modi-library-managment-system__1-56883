@@ -1,0 +1,370 @@
+[Root]
+Most Recent Package=Library Managment System
+
+
+[Package|Library Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Setup
+
+[Package|Library Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Library Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Library Setup|Files Found]
+agentctl.dll=C:\WINDOWS\msagent\agentctl.dll
+Library.mdb=C:\VB project\Library\Library.mdb
+
+[Package|Library Setup|Files Released]
+
+[Package|Library Setup|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\msagent\agentctl.dll=
+
+[Package|Library Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Library Setup|Files Added]
+library.mdb=
+c:\vb project\library\icons\amber.ico=
+c:\vb project\library\icons\garnet.ico=
+c:\vb project\library\icons\aquamarine.ico=
+c:\vb project\library\database\libraryexample.mdb=
+
+[Package|Library Setup|Files Removed]
+
+[Package|Library Setup|Files In Project]
+C:\VB project\Library\LMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\msagent\agentctl.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VB project\Library\Icons\AMBER.ICO=Yes
+C:\VB project\Library\Icons\GARNET.ICO=Yes
+C:\VB project\Library\Icons\aquamarine.ico=Yes
+C:\VB project\Library\Database\Libraryexample.mdb=Yes
+C:\VB project\Library\Library.mdb=Yes
+
+[Package|Library Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Library Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Library Setup|Install Locations]
+C:\VB project\Library\LMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\msagent\agentctl.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB project\Library\Database\Library.mdb=$(AppPath)
+C:\VB project\Library\Icons\AMBER.ICO=$(AppPath)
+C:\VB project\Library\Icons\GARNET.ICO=$(AppPath)
+C:\VB project\Library\Icons\aquamarine.ico=$(AppPath)
+C:\VB project\Library\Database\Libraryexample.mdb=$(AppPath)
+C:\VB project\Library\Library.mdb=$(AppPath)
+
+[Package|Library Setup|Configure Shared Files]
+Applicable=Yes
+C:\VB project\Library\LMS.exe=No
+C:\VB project\Library\Database\Library.mdb=No
+C:\VB project\Library\Icons\AMBER.ICO=No
+C:\VB project\Library\Icons\GARNET.ICO=No
+C:\VB project\Library\Icons\aquamarine.ico=No
+C:\VB project\Library\Database\Libraryexample.mdb=No
+C:\VB project\Library\Library.mdb=No
+
+[Package|Library Setup|Distribution]
+Type=single
+Size=
+Title=Library managment system
+
+[Package|Library Setup|IconGroups]
+Group0=Library managment system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Library Setup|Library managment system]
+Icon1=LMS.exe
+Title1=Library managment system
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Library Setup|Package]
+PackageFolder=C:\Setup
+ProjectFolder=C:\VB project\Library
+ServerSideCab=
+File1=C:\Setup\setup.exe
+File2=C:\Setup\Setup.Lst
+File3=C:\Setup\LMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Library Managment System|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Setup
+
+[Package|Library Managment System|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Library Managment System|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Library Managment System|Files Found]
+agentctl.dll=C:\WINDOWS\msagent\agentctl.dll
+About.txt=D:\Software\Database software\Library managment system\Library\About.txt
+HELP.HLP=D:\Software\Database software\Library managment system\Library\Help\HELP.HLP
+Libraryexample.mdb=D:\Software\Database software\Library managment system\Library\Database\Libraryexample.mdb
+AMBER.ICO=D:\Software\Database software\Library managment system\Library\AMBER.ICO
+
+[Package|Library Managment System|Files Released]
+
+[Package|Library Managment System|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\msagent\agentctl.dll=
+C:\WINDOWS\system32\agentctl.dll=
+
+[Package|Library Managment System|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|Library Managment System|Files Added]
+library.mdb=
+amber.ico=
+garnet.ico=
+aquamarine.ico=
+libraryexample.mdb=
+about.txt=
+lms.txt=
+
+[Package|Library Managment System|Files Removed]
+
+[Package|Library Managment System|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Software\Database software\Library managment system\Library\LMS.exe=Yes
+D:\Software\Database software\Library managment system\Library\Help\HELP.HLP=Yes
+D:\Software\Database software\Library managment system\Library\Library.mdb=Yes
+D:\Software\Database software\Library managment system\Library\AMBER.ICO=Yes
+D:\Software\Database software\Library managment system\Library\GARNET.ICO=Yes
+D:\Software\Database software\Library managment system\Library\aquamarine.ico=Yes
+D:\Software\Database software\Library managment system\Library\Database\Libraryexample.mdb=Yes
+D:\Software\Database software\Library managment system\Library\About.txt=Yes
+D:\Software\Database software\Library managment system\Library\LMS.txt=Yes
+C:\WINDOWS\system32\agentctl.dll=Yes
+
+[Package|Library Managment System|Configure Registry Files]
+Applicable=No
+
+[Package|Library Managment System|Configure Remote Servers]
+Applicable=No
+
+[Package|Library Managment System|Install Locations]
+C:\VB project\Library\LMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\msagent\agentctl.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB project\Library\Database\Library.mdb=$(AppPath)
+C:\VB project\Library\Icons\AMBER.ICO=$(AppPath)\Icons
+C:\VB project\Library\Icons\GARNET.ICO=$(AppPath)\Icons
+C:\VB project\Library\Icons\aquamarine.ico=$(AppPath)\Icons
+C:\VB project\Library\Database\Libraryexample.mdb=$(AppPath)\Database
+C:\VB project\Library\Library.mdb=$(AppPath)
+C:\New Folder\VB project\Library\LMS.exe=$(AppPath)
+C:\WINDOWS\system32\agentctl.dll=$(WinSysPath)
+C:\New Folder\VB project\Library\Library.mdb=$(AppPath)\Database
+C:\New Folder\VB project\Library\About.txt=$(AppPath)\Database
+C:\Final copy\VB project\Library\LMS.exe=$(AppPath)
+C:\Final copy\VB project\Library\agentctl.dll=$(WinSysPath)
+C:\Final copy\VB project\Library\About.txt=$(AppPath)
+C:\Final copy\VB project\Library\LMS.txt=$(AppPath)\Backup
+C:\Final copy\VB project\Library\Library.mdb=$(AppPath)
+C:\Final copy\Library managment system\Library\LMS.exe=$(AppPath)
+C:\Final copy\Library managment system\Library\Library.mdb=$(AppPath)\Database
+C:\Final copy\Library managment system\Library\AMBER.ICO=$(AppPath)\Icons
+C:\Final copy\Library managment system\Library\GARNET.ICO=$(AppPath)\Icons
+C:\Final copy\Library managment system\Library\aquamarine.ico=$(AppPath)\Icons
+C:\Final copy\Library managment system\Library\Libraryexample.mdb=$(AppPath)\Database
+C:\Final copy\Library managment system\Library\About.txt=$(AppPath)\Database
+C:\Final copy\Library managment system\Library\LMS.txt=$(AppPath)\Backup
+C:\Final copy\Library managment system\Library\Database\Library.mdb=$(AppPath)\Database
+C:\Final copy\Library managment system\Library\Database\Libraryexample.mdb=$(AppPath)\Database
+C:\Final copy\Library managment system\Library\Help\HELP.HLP=$(AppPath)
+C:\Library managment system\Library\LMS.exe=$(AppPath)
+C:\Library managment system\Library\Help\HELP.HLP=$(AppPath)
+C:\Library managment system\Library\Database\Library.mdb=$(AppPath)\Database
+C:\Library managment system\Library\AMBER.ICO=$(AppPath)\Icons
+C:\Library managment system\Library\GARNET.ICO=$(AppPath)\Icons
+C:\Library managment system\Library\aquamarine.ico=$(AppPath)\Icons
+C:\Library managment system\Library\Database\Libraryexample.mdb=$(AppPath)\Database
+C:\Library managment system\Library\About.txt=$(AppPath)\Database
+C:\Library managment system\Library\LMS.txt=$(AppPath)\Backup
+D:\Software\Database software\Library managment system\Library\LMS.exe=$(AppPath)
+D:\Software\Database software\Library managment system\Library\Help\HELP.HLP=$(AppPath)
+D:\Software\Database software\Library managment system\Library\Library.mdb=$(AppPath)\Database
+D:\Software\Database software\Library managment system\Library\AMBER.ICO=$(AppPath)
+D:\Software\Database software\Library managment system\Library\GARNET.ICO=$(AppPath)
+D:\Software\Database software\Library managment system\Library\aquamarine.ico=$(AppPath)
+D:\Software\Database software\Library managment system\Library\Database\Libraryexample.mdb=$(AppPath)\Datbase
+D:\Software\Database software\Library managment system\Library\About.txt=$(AppPath)\Database
+D:\Software\Database software\Library managment system\Library\LMS.txt=$(AppPath)
+
+[Package|Library Managment System|Configure Shared Files]
+Applicable=Yes
+C:\VB project\Library\LMS.exe=No
+C:\VB project\Library\Database\Library.mdb=No
+C:\VB project\Library\Icons\AMBER.ICO=No
+C:\VB project\Library\Icons\GARNET.ICO=No
+C:\VB project\Library\Icons\aquamarine.ico=No
+C:\VB project\Library\Database\Libraryexample.mdb=No
+C:\VB project\Library\Library.mdb=No
+C:\New Folder\VB project\Library\LMS.exe=No
+C:\New Folder\VB project\Library\Library.mdb=No
+C:\New Folder\VB project\Library\About.txt=No
+C:\Final copy\VB project\Library\LMS.exe=No
+C:\Final copy\VB project\Library\About.txt=No
+C:\Final copy\VB project\Library\LMS.txt=No
+C:\Final copy\VB project\Library\Library.mdb=No
+C:\Final copy\Library managment system\Library\LMS.exe=No
+C:\Final copy\Library managment system\Library\Library.mdb=No
+C:\Final copy\Library managment system\Library\AMBER.ICO=No
+C:\Final copy\Library managment system\Library\GARNET.ICO=No
+C:\Final copy\Library managment system\Library\aquamarine.ico=No
+C:\Final copy\Library managment system\Library\Libraryexample.mdb=No
+C:\Final copy\Library managment system\Library\About.txt=No
+C:\Final copy\Library managment system\Library\LMS.txt=No
+C:\Final copy\Library managment system\Library\Database\Library.mdb=No
+C:\Final copy\Library managment system\Library\Database\Libraryexample.mdb=No
+C:\Final copy\Library managment system\Library\Help\HELP.HLP=No
+C:\Library managment system\Library\LMS.exe=No
+C:\Library managment system\Library\Help\HELP.HLP=No
+C:\Library managment system\Library\Database\Library.mdb=No
+C:\Library managment system\Library\AMBER.ICO=No
+C:\Library managment system\Library\GARNET.ICO=No
+C:\Library managment system\Library\aquamarine.ico=No
+C:\Library managment system\Library\Database\Libraryexample.mdb=No
+C:\Library managment system\Library\About.txt=No
+C:\Library managment system\Library\LMS.txt=No
+D:\Software\Database software\Library managment system\Library\LMS.exe=Yes
+D:\Software\Database software\Library managment system\Library\Help\HELP.HLP=Yes
+D:\Software\Database software\Library managment system\Library\Library.mdb=Yes
+D:\Software\Database software\Library managment system\Library\AMBER.ICO=Yes
+D:\Software\Database software\Library managment system\Library\GARNET.ICO=Yes
+D:\Software\Database software\Library managment system\Library\aquamarine.ico=Yes
+D:\Software\Database software\Library managment system\Library\Database\Libraryexample.mdb=Yes
+D:\Software\Database software\Library managment system\Library\About.txt=Yes
+D:\Software\Database software\Library managment system\Library\LMS.txt=Yes
+
+[Package|Library Managment System|Distribution]
+Type=single
+Size=
+Title=Library managment system
+
+[Package|Library Managment System|Package]
+PackageFolder=C:\setup
+ProjectFolder=D:\Software\Database software\Library managment system\Library
+ServerSideCab=
+File1=C:\setup\setup.exe
+File2=C:\setup\Setup.Lst
+File3=C:\setup\LMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Library Managment System|IconGroups]
+Group0=Library managment system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Library Managment System|Library managment system]
+Icon1=LMS.exe
+Title1=Library managment system
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=HELP.HLP
+Title2=Help
+StartIn2=$(AppPath)
+Key2=Icon2
