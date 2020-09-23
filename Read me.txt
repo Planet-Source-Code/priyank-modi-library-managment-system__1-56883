@@ -1,0 +1,8 @@
+For first time it will ask for administrator password(password & confirm password).
+enter what ever u want.
+when u log in as administrator this password will be use full.later u can add more employees and their password.
+
+
+if u really enjoy this mail me on
+
+"priyank_modi@yahoo.co.in"
